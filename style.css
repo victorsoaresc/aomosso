@@ -1,0 +1,70 @@
+body {
+  background: #F97316;
+  height: 100%;
+  margin: 0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding:50px;
+  text-align: center;
+
+}
+
+#header {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  font-family: Bebas Neue;
+  font-size: 33.18px;
+  color: #FEF08A;
+}
+#hora {
+  color: #FEF08A;
+  font-family: "DM Sans", sans-serif;
+  font-size: 40px;
+}
+#container{
+  text-align:center;  
+}
+
+#bloco-hora {
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  background: #B45309;
+}
+
+h1 {
+  color: #FEF08A;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  font-style: normal;
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 300;
+  font-size: 36.91px;
+  font-style: normal;
+  color:#B45309;
+}
+#emoji {
+font-size: 100px;
+}
+
+#botao_teimoso{
+  padding: 30px;
+  background:#84CC16;
+  margin:40px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500px;
+  font-size:30px;
+  border-radius: 36px;
+  border:0px;
+}
