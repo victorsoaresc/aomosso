@@ -1,5 +1,5 @@
 body {
-  background: #F97316;
+  background: #7C2D12;
   height: 100%;
   margin: 0;
   display:flex;
@@ -19,13 +19,13 @@ body {
 
 #logo {
   font-family: Bebas Neue;
-  font-size: 33.18px;
-  color: #FEF08A;
+  font-size: 49px;
+  color: #FB923C;
 }
 #hora {
   color: #FEF08A;
   font-family: "DM Sans", sans-serif;
-  font-size: 40px;
+  font-size: 59px;
 }
 #container{
   text-align:center;  
@@ -33,38 +33,46 @@ body {
 
 #bloco-hora {
   display: block;
-  padding: 10px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 200px;
-  background: #B45309;
+  background: #431407;
 }
 
 h1 {
-  color: #FEF08A;
+  color: #FDE68A;
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
-  font-size: 64px;
+  font-size: 59px;
   font-style: normal;
 }
 h2 {
   font-family: "DM Sans", sans-serif;
-  font-weight: 300;
-  font-size: 36.91px;
+  font-weight: 500;
+  font-size: 36px;
   font-style: normal;
-  color:#B45309;
+  color:#FDE68A;
 }
 #emoji {
 font-size: 100px;
 }
 
 #botao_teimoso{
-  padding: 30px;
+  position: fixed;
+  display:flex;
+  padding: 10px;
   background:#84CC16;
-  margin:40px;
+  bottom:40px;
+  right: 15px;
   font-family: "DM Sans", sans-serif;
   font-weight: 500px;
-  font-size:30px;
+  font-size:18px;
   border-radius: 36px;
+  -webkit-border-radius:36px;
+  -moz-border-radius:36px;
   border:0px;
+}
+#botao_teimoso:hover{ 
+  background:#538509;
+  
 }
