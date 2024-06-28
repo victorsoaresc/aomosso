@@ -6,7 +6,6 @@ body {
   align-items: center;
   padding:50px;
   text-align: center;
-
 }
 .content{
   align-items: stretch;
@@ -30,17 +29,14 @@ body {
 #hora {
   color: #FEF08A;
   font-family: "DM Sans", sans-serif;
-  font-size: 59px;
+  font-size: 49px;
 }
 
-
 #bloco-hora {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 200px;
-  background: #431407;
-  width: 40%;
+  background: #431407;  
 }
 
 h1 {
