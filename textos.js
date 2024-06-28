@@ -1,7 +1,7 @@
 let user = window.prompt("qual o seu nome?");
 
 const respostas = [
-    "Tenha paciência, "+ user +", está quase lá!",
+    "Te aquieta, "+ user +", vai arrumar o que fazer.",
     "Calma,"+ user +", já estamos na reta final!",
     "Não se preocupe, "+ user +", estamos quase terminando!",
     "Mantenha a calma," + user +", está quase pronto!",
