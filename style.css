@@ -1,18 +1,22 @@
 body {
   background: #7C2D12;
   height: 100%;
-  margin: 0;
-  display:flex;
+  margin: 0px;
   justify-content:center;
   align-items: center;
   padding:50px;
   text-align: center;
 
 }
+.content{
+  align-items: stretch;
+  height: 100%;
+  flex-direction: column;
+}
 
 #header {
-  display: inline-flex;
-  align-items: center;
+  display:flex;
+  align-content: center;
   gap: 20px;
   margin-bottom: 10px;
 }
@@ -21,15 +25,14 @@ body {
   font-family: Bebas Neue;
   font-size: 49px;
   color: #FB923C;
+  width: 100%;
 }
 #hora {
   color: #FEF08A;
   font-family: "DM Sans", sans-serif;
   font-size: 59px;
 }
-#container{
-  text-align:center;  
-}
+
 
 #bloco-hora {
   display: block;
