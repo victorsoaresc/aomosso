@@ -1,26 +1,26 @@
 let user = window.prompt("qual o seu nome?");
 
 const respostas = [
-    "Te aquieta, "+ user +", vai arrumar o que fazer.",
-    "Calma, "+ user +", já estamos na reta final!",
-    "Não se preocupe, "+ user +", estamos quase terminando!",
-    "Mantenha a calma, " + user +", está quase pronto!",
-    "Segure firme, " + user +", está quase acabando!",
-    "Aguente firme, " + user +", estamos quase no fim!",
-    "Falta pouco, " + user +", já vamos conseguir!",
-    "Tranquilize-se, " + user +", está quase concluído!",
-    "Calma, " + user +", a espera está quase no fim!",
-    "Paciência, " + user +", falta só um pouquinho!",
-    "Fique calmo, " + user +", está quase finalizado!",
-    "Não desanime, " + user +", falta bem pouco!",
-    "Calma, " + user +", logo, logo, terminamos!",
-    "Respire fundo, " + user +", estamos na reta final!",
-    "Tenha calma, " + user +", falta só um pouquinho!",
-    "Não se preocupe, " + user +", estamos quase lá!",
-    "Tranquilo, " + user +", o fim está próximo!",
-    "Aguente mais um pouco, " + user +", está quase lá!",
-    "Força, " + user +", está quase no final!",
-    "Calma, " + user +", só mais um pouquinho!"
+  `${user}, aguente um pouco mais, o horário de almoço ainda não chegou.`,
+  `${user}, vamos esperar mais um pouco, ainda não é hora do almoço.`,
+  `${user}, por favor, tenha paciência, o almoço ainda está longe.`,
+  `${user}, falta um pouco para o almoço, aguente firme!`,
+  `${user}, espere um pouco mais, ainda não é hora de comer.`,
+  `${user}, calma! O almoço ainda não está pronto.`,
+  `${user}, aguarde mais um pouco, o horário de almoço está chegando.`,
+  `${user}, vamos esperar um pouco mais, o almoço ainda não foi servido.`,
+  `${user}, tenha um pouco de paciência, o almoço está quase pronto.`,
+  `${user}, ainda não é hora do almoço, espere um pouco mais.`,
+  `${user}, aguente firme, o almoço ainda vai demorar um pouco.`,
+  `${user}, por favor, espere mais um pouco, o horário de almoço ainda não chegou.`,
+  `${user}, o almoço está quase chegando, mas ainda não é hora.`,
+  `${user}, vamos esperar mais um pouco, o almoço não tardará.`,
+  `${user}, tenha paciência, o almoço ainda não está pronto.`,
+  `${user}, aguente um pouco mais, o horário de almoço ainda não começou.`,
+  `${user}, ainda falta um pouco para o almoço, vamos esperar.`,
+  `${user}, o almoço está chegando, mas ainda não é hora.`,
+  `${user}, por favor, espere mais um pouco, o almoço está próximo.`,
+  `${user}, aguente firme, o almoço ainda vai demorar um pouco.`
 ];
 
 function respostaBTN(){
