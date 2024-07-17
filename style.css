@@ -23,7 +23,7 @@ html, body {
 
 #logo {
   font-weight: 600;
-  font-size: 39.81px;
+  font-size: 2.4375rem;
   color: #FB923C;
 }
 
@@ -41,7 +41,7 @@ html, body {
 h1, #hora {
   color: #FDE68A;
   font-weight: 500;
-  font-size: 59.72px;
+  font-size: 3.6875rem;
   font-style: normal;
 }
 #emoji {
@@ -50,7 +50,7 @@ h1, #hora {
 
 h2 {
   font-weight: 500;
-  font-size: 36,91px;
+  font-size: 2.25rem;
   font-style: normal;
   color:#FDE68A;
 }
@@ -64,7 +64,7 @@ h2 {
   bottom:40px;
   right: 15px;
   font-weight: 500px;
-  font-size:18px;
+  font-size:1.125rem;
   border-radius: 36px;
   -webkit-border-radius:36px;
   -moz-border-radius:36px;
