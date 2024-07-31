@@ -1,7 +1,7 @@
-html, body {
+html,
+body {
   background: #7C2D12;
   height: 100%;
-  margin: 0;
   display: flex;
   flex-direction: column;
   font-size: 62.5%;
@@ -10,95 +10,113 @@ html, body {
   font-family: "DM Sans", sans-serif;
 
 }
-#content{
-  text-align:center; 
+
+#content {
+  text-align: center;
 }
+
 #header {
   width: 100%;
-  height: 25%;
+  height: 10%;
   padding-top: 10%;
 }
 
-#logo { 
+#logo {
   font-weight: 600;
   font-size: 3.0625rem;
   color: #FB923C;
 }
 
-#blocousername{
-  display:inline-flex;
+#blocousername {
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items:  center;
-  gap:20px;
+  align-items: center;
+  gap: 8px;
   margin-left: auto;
   margin-right: auto;
-  min-width:30%;
+  min-width: 30%;
 }
 
-h1, #hora {
+h1,
+#hora {
   color: #FDE68A;
   font-weight: 500;
   font-size: 3.6875rem;
   font-style: normal;
 }
+
 #emoji {
   font-size: 3.75rem;
-  }
+}
 
 h2 {
   font-weight: 500;
   font-size: 2.25rem;
   font-style: normal;
-  color:#FDE68A;
+  color: #FDE68A;
 }
 
 
-#botao_teimoso{
-  display:flex;
+#botao_teimoso {
+  display: flex;
   padding: 10px;
-  background:#84CC16;
+  background: #84CC16;
   font-weight: 500px;
-  font-size:1.125rem;
+  font-size: 1.125rem;
   border-radius: 36px;
-  -webkit-border-radius:36px;
-  -moz-border-radius:36px;
-  border:0px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
+  border: 0px;
 }
-#botao_teimoso:hover{ 
-  background:#538509;
-  
+
+#botao_teimoso:hover {
+  background: #538509;
+
 }
+
 /* footer */
-#footer{
+#footer {
   display: block;
   position: fixed;
   bottom: 10%;
   width: 100%;
   gap: 10px;
 }
-/*
-#chat{
+
+/* Chat */
+#chat {
+  display: block;
+  background-color: #581904;
+  width: 100%;
 }
 
-#mensagens{
-}
+/*#mensagens {
+}*/
 
-*/
-#chatui{
-display: inline-flex;
-bottom:20px;
-}
-
-
-#msg{
-  background-color:#531c0a ;
-  padding: 2px 50px;
+#usermsg {
+  display: block;
+  background-color: #538509;
   width: fit-content;
-  border:5px;
+  float:right;
+  
+
+}
+
+#chatui {
+  display: inline-flex;
+  bottom: 20px;
+}
+
+
+#msg {
+  background-color: #531c0a;
+  padding: 2px 50px 2px 15px;
+  width: fit-content;
+  border: 5px;
   border-radius: 45px;
-  -webkit-border-radius:36px;
-  -moz-border-radius:36px;
+  -webkit-border-radius: 36px;
+  -moz-border-radius: 36px;
   font-size: 2rem;
   align-content: center;
   color: #FDE68A;

@@ -26,4 +26,5 @@ const respostas = [
 function respostaBTN(){
     const random = Math.floor(Math.random() * respostas.length);
     document.getElementById("resposta").innerHTML= respostas[random];
+    document.getElementById("usermsg").innerHTML= "mas eu quero ao mossar!";
 }
